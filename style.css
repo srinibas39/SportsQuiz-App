@@ -4,6 +4,7 @@
     margin: 0px;
 
   }
+  /* Screen 1 */
 .card{
     height: 20rem;
     width: 20rem;
@@ -41,4 +42,14 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+/* Screen 2 */
+
+/* questuon-header */
+.q-header{
+    display: flex;
+    justify-content: space-between;
 }
