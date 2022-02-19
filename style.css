@@ -24,6 +24,7 @@
     box-shadow: 0px 0px 5px 2px rgb(170 170 170 / 71%);
     padding: 10px;
     margin-bottom: 1rem;
+    position: relative;
 
 }
 .img{
@@ -94,7 +95,6 @@
     width: 80vw;
     display: flex;
     flex-direction: column;
-    height: 26rem;
     justify-content: space-evenly;
     box-shadow: 0px 0px 0px 0.5px #aaa;
     padding: 1rem;
@@ -133,6 +133,7 @@ body{
     width: 20%;
     padding: 1rem;
     position: relative;
+    cursor: pointer;
 }
 .navBar-content{
     height: 100%;
@@ -141,6 +142,7 @@ body{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 0px 0px 0.5px #aaa;
+    position: relative;
 }
 .navBar-content div{
     width: 100%;
@@ -186,6 +188,7 @@ background-color: var(--secondary-back-color);
     color: white;
     border-radius: 50px;
     cursor: pointer;
+    text-decoration: none;
 }
 .footer{
     height: 15vh;
@@ -267,4 +270,30 @@ background-color: var(--secondary-back-color);
     align-items: center;
     box-shadow: 0px 0px 0px 0.5px #aaa;
     background-color: var(--primary-color);
+}
+.link{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 95%;
+}
+
+svg{
+    height: 100%;
+}
+/* @media screen and (min-width:425px){
+    .navBar-content{
+        width: 24%;
+    }
+} */
+@media screen and (min-width:300px) and (max-width:800px){
+    .navBar-content{
+        width: 24%;
+    }
+    .card{
+        height: 33rem;
+    }
+    .forgotP-container{
+        margin: 2rem 0;
+    }
 }
