@@ -37,8 +37,6 @@
 .content{
     height: 44%;
     
-    font-family: 'Montserrat', sans-serif;
-    
 }
 .header{
     display: flex;
@@ -50,13 +48,16 @@
 }
 .card-container{
     display: flex;
-    height: 88vh;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin: 1rem;
     gap: 1rem;
     cursor: pointer;
+    padding: 2rem;
+    width: 80vw;
+    box-shadow: 0px 0px 0px 0.5px #aaa;
+    background-color: var(--primary-color);
 }
 
 /* Screen 2 */
