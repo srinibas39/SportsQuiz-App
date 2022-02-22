@@ -18,5 +18,5 @@ UFCQuiz is a Quiz Application for sports enthusiast who want test their Knowledg
 ![main2](./screenshots/main2.PNG)
 ![main3](./screenshots/main3.PNG)
 ![Final1](./screenshots/Final1.PNG)
-![login](./screenshots/login.PNG)
+![login](./screenshots/Login.PNG)
 ![signup](./screenshots/signup.PNG)
