@@ -4,13 +4,13 @@ UFCQuiz is a Quiz Application for sports enthusiast who want test their Knowledg
 <br/>
 
 ## Screens  
-<ul>
-<li><a>Home</a></li>
-<li><a>Login Page</a></li>
-<li><a>Sign up Page</a></li>
-<li><a>Main Page</a></li>
-<li><a>Final Score Page</a></li>
-</ul>
+
++ [Home](https://ufcsportsquiz.netlify.app/screens/home)
++ [login Page](https://ufcsportsquiz.netlify.app/screens/loginpage)
++ [Sign up Page](https://ufcsportsquiz.netlify.app/screens/signuppage)
++ [Main Page](https://ufcsportsquiz.netlify.app/screens/screen2.html)
++ [Final Score Page](https://ufcsportsquiz.netlify.app/screens/screen3.html)
+
 
 ## Screenshots
 ![Home](./screenshots/Home.PNG)
