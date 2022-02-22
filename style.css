@@ -12,18 +12,22 @@
     --secondary-back-color:#fff;
     --incorrect:#d20a0a;
     --correct:#16a34a;
-
-
+    --box-shadow1: 0px 0px 5px 2px rgb(170 170 170 / 71%);
+    --box-shadow2:0px 0px 0px 0.5px #aaa;
+    --card-background:#f1f5f9;
+    --secondary-color2:#fff;
+    --margin1:1rem;
+    --margin2:2rem;
   }
   /* Screen 1 */
 .card{
     height: 20rem;
     width: 20rem;
     border-radius: 0.5rem;
-    background-color: #f1f5f9;
-    box-shadow: 0px 0px 5px 2px rgb(170 170 170 / 71%);
+    background-color: var(--card-background);
+    box-shadow: var(--box-shadow1);
     padding: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: var(--margin1);
     position: relative;
 
 }
@@ -52,12 +56,12 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin:var(--margin1);
     gap: 1rem;
     cursor: pointer;
     padding: 2rem;
     width: 80vw;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
+    box-shadow: var(--box-shadow2);
     background-color: var(--primary-color);
 }
 
@@ -88,7 +92,7 @@
     cursor: pointer;
 }
 .header-screen2{
-   margin: 1rem;
+   margin: var(--margin1);
    background-color: var(--primary-color);
 }
 .question{
@@ -96,10 +100,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
+    box-shadow: var(--box-shadow2);
     padding: 1rem;
     background-color: var(--primary-color);
-    margin: 1rem;
+    margin: var(--margin1);
 }
 body{
     display: flex;
@@ -108,7 +112,7 @@ body{
     align-items: center;
 }
 .q-header{
-    margin: 1rem 0;
+    margin: var(--margin1) 0;
 }
 .q-body{
     text-align: center;
@@ -121,10 +125,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 0px 0.5px #AAA;
+    box-shadow: var(--box-shadow2);
     position: sticky;
     top: 0px;
-    background-color: #fff;
+    background-color:var(--secondary-color2);
     z-index: 1;
     width: 80vw;
 }
@@ -141,8 +145,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
+    box-shadow: var(--box-shadow2);
     position: relative;
+    color: var(--incorrect);
 }
 .navBar-content div{
     width: 100%;
@@ -156,7 +161,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
+    box-shadow: var(--box-shadow2);
 }
 .secondary-back-color{
 background-color: var(--secondary-back-color);
@@ -164,14 +169,14 @@ background-color: var(--secondary-back-color);
 
 #correct{
     background-color: var(--correct);
-    color: #fff;
+    color:var(--secondary-color2);
 }
 #incorrect{
     background-color: var(--incorrect);
-    color: #fff;
+    color: var(--secondary-color2);
 }
 .submit-container{
-    margin: 1rem;
+    margin: var(--margin1);
     width: 80vw;
     height: 4rem;
     display: flex;
@@ -185,7 +190,7 @@ background-color: var(--secondary-back-color);
     width: 10rem;
     height: 3rem;
     background-color: var(--incorrect);
-    color: white;
+    color: var(--secondary-color2);
     border-radius: 50px;
     cursor: pointer;
     text-decoration: none;
@@ -193,20 +198,21 @@ background-color: var(--secondary-back-color);
 .footer{
     height: 15vh;
     width: 80vw;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
-    margin: 1rem;
+    box-shadow: var(--box-shadow2);
+    margin:var(--margin1);
     background-color:var(--primary-color);
     font-size: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: var(--incorrect);
 }
 .footer i{
     cursor: pointer;
 }
 /* login */
 .login{
-    margin: 1rem;
+    margin:var(--margin1);
     height: 20rem;
     width: 24rem;
     display: flex;
@@ -214,7 +220,7 @@ background-color: var(--secondary-back-color);
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 0px 10px 2px #AAA;
+    box-shadow:var(--box-shadow2);
     border-radius: 5px;
 }
 .email-container,.password-container{
@@ -235,7 +241,7 @@ background-color: var(--secondary-back-color);
     width: 100%;
     height: 12%;
     background-color: var(--incorrect);
-    color: #fff;
+    color: var(--secondary-color2);
     cursor: pointer;
     border: none;
 }
@@ -264,11 +270,11 @@ background-color: var(--secondary-back-color);
 .login-container{
     width: 80vw;
     height: 30rem;
-    margin: 1rem;
+    margin: var(--margin1);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 0px 0.5px #aaa;
+    box-shadow: var(--box-shadow2);
     background-color: var(--primary-color);
 }
 .link{
@@ -286,6 +292,8 @@ svg{
         width: 24%;
     }
 } */
+/* modes */
+
 @media screen and (min-width:300px) and (max-width:800px){
     .navBar-content{
         width: 24%;
@@ -294,6 +302,6 @@ svg{
         height: 33rem;
     }
     .forgotP-container{
-        margin: 2rem 0;
+        margin: var(--margin2) 0;
     }
 }
