@@ -11,7 +11,7 @@ UFCQuiz is a Quiz Application for sports enthusiast who want test their Knowledg
 + [Main Page](https://ufcsportsquiz.netlify.app/screens/screen2.html)
 + [Final Score Page](https://ufcsportsquiz.netlify.app/screens/screen3.html)
 
-##[Live](https://ufcsportsquiz.netlify.app/)
+## [Live](https://ufcsportsquiz.netlify.app/)
 
 ## Screenshots
 ![Home](./screenshots/Home.PNG)
